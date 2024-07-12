@@ -4,25 +4,25 @@ import Slider from "react-slick";
 const TestimonialData = [
   {
     id: 1,
-    name: "Dilshad",
+    name: "Tunde Adetun",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
     img: "https://picsum.photos/101/101",
   },
   {
     id: 2,
-    name: "Sabir ali",
+    name: "Umar Farouq",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
     img: "https://picsum.photos/102/102",
   },
   {
     id: 3,
-    name: "Dipankar kumar",
+    name: "Simon Cooper",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
     img: "https://picsum.photos/104/104",
   },
   {
     id: 5,
-    name: "Satya Narayan",
+    name: "Muoghalu J.",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
     img: "https://picsum.photos/103/103",
   },
@@ -84,9 +84,9 @@ const Testimonials = () => {
         <div data-aos="zoom-in">
           <Slider {...settings}>
             {TestimonialData.map((data) => (
-              <div className="my-6">
-                <div
-                  key={data.id}
+              <div key={data.id} className="my-6">
+                <div 
+                  
                   className="flex flex-col gap-4 shadow-lg py-8 px-6 mx-4 rounded-xl  bg-primary/10 relative"
                 >
                   <div className="mb-4">
